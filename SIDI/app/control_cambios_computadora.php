@@ -18,8 +18,6 @@ class control_cambios_computadora extends Model
     public function cambiarUbicacion( $id, $ubicacionActual, $nuevaUbicacion){
 
         $model = new App\Computadora();
-        $computadora =  $model->hydrate
-        DB:select(
 
         )
     }
